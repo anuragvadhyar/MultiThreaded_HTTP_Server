@@ -3,7 +3,7 @@ CFLAGS=-Wall -Wextra -g -Iinclude
 LDFLAGS=-lpthread
 
 SRCS=src/main.c src/map.c src/thread_pool.c src/html_formatting.c
-TARGET=my_program
+TARGET=server
 
 all: $(TARGET)
 
